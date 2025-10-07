@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "760190231979",
+    "project_id": "app-time-futebol",
+    "storage_bucket": "app-time-futebol.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760190231979:android:99733ea1f9a8f5035e9eee",
+        "android_client_info": {
+          "package_name": "com.example.time_futebol_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4dgPJhL9UAaHWl7ITu4AxnhTy9DszpAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
