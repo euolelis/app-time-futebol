@@ -4,6 +4,8 @@ import 'elenco_screen.dart';
 import 'noticias_screen.dart';
 
 class BottomNavController extends StatefulWidget {
+  const BottomNavController({super.key});
+
   @override
   _BottomNavControllerState createState() => _BottomNavControllerState();
 }
@@ -11,9 +13,9 @@ class BottomNavController extends StatefulWidget {
 class _BottomNavControllerState extends State<BottomNavController> {
   int _currentIndex = 0;
   final List<Widget> _screens = [
-    HomeScreen(),
-    ElencoScreen(),
-    NoticiasScreen(),
+     HomeScreen(),
+     ElencoScreen(),
+     NoticiasScreen(),
   ];
 
   @override
@@ -27,10 +29,10 @@ class _BottomNavControllerState extends State<BottomNavController> {
             _currentIndex = index;
           });
         },
-        items: [
+        items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            label: 'Home',
+            label: 'Início',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.people),
@@ -41,6 +43,9 @@ class _BottomNavControllerState extends State<BottomNavController> {
             label: 'Notícias',
           ),
         ],
+        backgroundColor: Color(0xFF5B1A18),
+        selectedItemColor: Color(0xFFFFD700),
+        unselectedItemColor: Colors.white,
       ),
     );
   }
