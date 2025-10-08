@@ -72,4 +72,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'app-time-futebol.firebasestorage.app',
     iosBundleId: 'com.example.timeFutebolApp',
   );
+
 }
