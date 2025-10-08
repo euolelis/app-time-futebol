@@ -11,14 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Moreira's Sport",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: const Color(0xFF7A1A00),
         colorScheme: ColorScheme.fromSeed(
           seedColor: const Color(0xFF7A1A00),
           primary: const Color(0xFF7A1A00),
-          secondary: const Color(0xFFFFC800),
+          secondary: const Color(0xFFFFFC800),
         ),
       ),
       home: const BottomNavController(),

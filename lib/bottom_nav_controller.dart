@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'elenco_screen.dart';
-import 'home_screen.dart';
-import 'noticias_screen.dart';
+import 'screens/public/home_screen.dart';
+import 'screens/public/elenco_screen.dart';
+import 'screens/public/noticias_screen.dart';
 
 class BottomNavController extends StatefulWidget {
   const BottomNavController({super.key});
@@ -35,7 +35,7 @@ class _BottomNavControllerState extends State<BottomNavController> {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            label: 'Inicio',
+            label: 'Início',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.people),
@@ -43,13 +43,13 @@ class _BottomNavControllerState extends State<BottomNavController> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.article),
-            label: 'Noticias',
+            label: 'Notícias',
           ),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: const Color(0xFFFFC800), // amarelo
+        selectedItemColor: const Color(0xFFFFC800),
         unselectedItemColor: Colors.white54,
-        backgroundColor: const Color(0xFF7A1A00), // marrom escuro
+        backgroundColor: const Color(0xFF7A1A00),
         onTap: _onItemTapped,
       ),
     );
