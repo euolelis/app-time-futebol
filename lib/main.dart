@@ -14,12 +14,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF7A1A00),
-          primary: const Color(0xFF7A1A00),
-          secondary: const Color(0xFFFFFC800),
+          seedColor:  Color(0xFF7A1A00),
+          primary:  Color(0xFF7A1A00),
+          secondary:  Color(0xFFFFFC800),
         ),
       ),
-      home: const BottomNavController(),
+      home:  BottomNavController(),
     );
   }
 }
